@@ -225,8 +225,7 @@ class Level1 extends React.Component {
           {this.props.hasGarnishes ? (
             <div id="Garnishes">
               <b>Garnishes</b>
-              {/** fixme: need garnishes image */}
-              <img src={require("../images/mixers.jpg")} alt="garnishes" />
+              <img src={require("../images/garnishes.jpg")} alt="garnishes" />
               <select
                 multiple
                 className="list-items"
