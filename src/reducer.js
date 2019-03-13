@@ -25,7 +25,7 @@ export const initialState = {
       "Cointreau",
       "Kahlua",
       "Campari",
-      "Sweet red Vermouth",
+      "Sweet Vermouth",
       "Amaretto",
       "Maraschino Liqueur",
       "Cream of coconut"
@@ -52,7 +52,7 @@ export const initialState = {
     garnishes: [
       "Celery",
       "Orange Peel",
-      "Marashcino Cherry",
+      "Maraschino Cherry",
       "Salt Rim",
       "Lemon",
       "Nutmeg",

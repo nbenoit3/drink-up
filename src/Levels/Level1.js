@@ -26,6 +26,15 @@ class Level1 extends React.Component {
     super(props);
     this.state = initialLevelState(props);
   }
+
+  updateTitle = () => document.title = `Level: ${this.props.level} - ${this.state.currentDrink}`;
+  componentDidMount() {
+    this.updateTitle()
+  }
+  
+  componentDidUpdate() {
+    this.updateTitle()
+  }
 //Function running score reduced by amount of time it takes to answer drinks correctly
   points = secondsElapsed => {
     if (secondsElapsed > 60) {
