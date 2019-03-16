@@ -6,7 +6,8 @@ const mapDispatchToProps = dispatch => ({
     dispatch({ type: "SELECT_INGREDIENTS", payload: e.target.id }),
   submitDrink: () => dispatch({ type: "SUBMIT_DRINK" }),
   updateScore: (score, callback) =>
-    dispatch({ type: UPDATE_SCORE_TYPE, payload: { score } }, callback)
+    dispatch({ type: UPDATE_SCORE_TYPE, payload: { score } }, callback),
+    logOut: () => ({ type: "LOG_OUT" })   
 });
 
 export default mapDispatchToProps;

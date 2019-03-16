@@ -52,6 +52,7 @@ class Level1 extends React.Component {
     }
   };
 
+
   checkIngredients = () => {
     const {
       currentDrink,
@@ -173,6 +174,10 @@ class Level1 extends React.Component {
   render() {
     return (
       <div>
+        <h2>Your Score: {this.props.score}
+              <br/>
+            Your Time: {this.props.secondsElapsed}
+        </h2>
         <h1>
           I would like a <b>{this.state.currentDrink} please</b>
         </h1>

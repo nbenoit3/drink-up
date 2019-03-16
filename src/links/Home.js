@@ -16,6 +16,7 @@ let Home = (props) => {
             <h2>Click the button to start bartending!</h2>
             <Button style={{backgroundColor:"#738290", border:"none" }} className="btn-lg"  onClick={() => props.history.push("/Level1")}>Drink Up!</Button>
         </div>
+        
     )
 }
 
